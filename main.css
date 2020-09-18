@@ -1,0 +1,158 @@
+/*Common elements*/
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #f8eae7 url(./assets/img/paper_1332008.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color:rgb(127, 51, 228);
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color:grey;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+a, a:visited {
+    color: #862aa1;
+}
+a:hover {
+    color: rgb(190, 191, 219);
+}
+
+a, a:visited {
+    color: #C64322;
+}
+a:hover {
+    color: #333;
+}
+.contentWrapper {
+    margin: 0 auto;
+    padding: 0 3.0em;
+}
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+/*Header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: rgb(170, 14, 14) url(http://www.easybasicphotography.com/uploads/8/1/3/6/81363426/canon-t7i_2_orig.jpg) center 0px;
+}
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #080601;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;    
+    text-shadow: 1px 2px 0 #b6afa6;  offset-x | offset-y | blur-radius | color
+}
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+/*Nav Bars*/
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #ad9c98;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #57372f;
+    background-color: rgba(252,251,243,0.75);
+}
+/*Main Section*/
+section #main {
+    background-color: rgba(233, 227, 229, 0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+   }
+   section div.picturePanel{
+    float: left; 
+    position: relative;
+    width: auto;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: rgb(206, 39, 39) solid 1px;
+    border-radius: 1em;
+    /* Make image read only by not allowing user to have pointer events */
+
+    pointer-events: none;  
+   }
+   section div.picturePanel img.picture {
+    width: 100%;
+   }
+/*Footer*/
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: rgb(173, 53, 53);
+    text-align: center;
+    padding: 1.5em 4.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10em 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: rgb(192, 164, 245);
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+button {
+    color: #1b0702;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #C64322;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #FBF3DB;
+    border: 1px solid #745b2f;
+}
